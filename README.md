@@ -1,16 +1,16 @@
-# Resumo sobre a PoC
+# Resumo sobre a PoC 📖📖📖
 
-# 1. Program.cs
+# 1. Program.cs 🧑‍💻
 Método Main: Ponto de entrada do programa. Exibe mensagem de boas-vindas, solicita tipo de login (Cliente ou Administrador) e controla a saída do programa. Inclui um bloco try-catch para tratamento de exceções e uma variável loginValido para controle de fluxo.
 Métodos Auxiliares:
 ExibirMensagemInicial(): Mostra mensagens animadas na tela inicial.
 EncerrarPrograma(): Exibe contagem regressiva antes de fechar o programa.
 
-## 2. TelaAdm.cs
+## 2. TelaAdm.cs 🖥️
 Método Admin: Autentica o login do administrador, verificando usuário e senha. Se bem-sucedido, exibe um menu para gerenciamento do sistema.
 Método admLogado: Oferece um menu com opções para gerenciar clientes, funcionários, fornecedores, produtos, matéria-prima e vendas.
 
-## 3. ClienteFazerLogin.cs
+## 3. ClienteFazerLogin.cs 
 Controla o processo de login dos clientes. Solicita CPF e senha, verifica as credenciais e redireciona o cliente para a próxima etapa ou solicita nova tentativa.
 
 ## 4. ClienteLoginOuCadastro.cs
