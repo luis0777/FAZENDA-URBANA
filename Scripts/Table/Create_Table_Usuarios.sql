@@ -1,0 +1,18 @@
+USE BD_FAZENDA;
+
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'Usuarios')
+BEGIN
+    PRINT 'A tabela já existe.'
+END
+ELSE
+BEGIN
+	-- Criação da tabela Usuarios
+	CREATE TABLE Usuarios (
+		UsuarioID INT PRIMARY KEY IDENTITY(1,1),
+		Nome NVARCHAR(100) NOT NULL,
+		Email NVARCHAR(100) NOT NULL UNIQUE,
+		Senha NVARCHAR(100) NOT NULL,
+		DataCriacao DATETIME DEFAULT GETDATE()
+	);
+	PRINT 'Tabela criada com sucesso.'
+END

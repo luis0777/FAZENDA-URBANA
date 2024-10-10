@@ -1,0 +1,13 @@
+C:\Users\Public\repositorio\LuisFelipeSilvaAmorim\FAZENDA-URBANA\Util\bin\Debug\net8.0\Util.deps.json
+C:\Users\Public\repositorio\LuisFelipeSilvaAmorim\FAZENDA-URBANA\Util\bin\Debug\net8.0\Util.dll
+C:\Users\Public\repositorio\LuisFelipeSilvaAmorim\FAZENDA-URBANA\Util\bin\Debug\net8.0\Util.pdb
+C:\Users\Public\repositorio\LuisFelipeSilvaAmorim\FAZENDA-URBANA\Util\obj\Debug\net8.0\Util.csproj.AssemblyReference.cache
+C:\Users\Public\repositorio\LuisFelipeSilvaAmorim\FAZENDA-URBANA\Util\obj\Debug\net8.0\Util.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Public\repositorio\LuisFelipeSilvaAmorim\FAZENDA-URBANA\Util\obj\Debug\net8.0\Util.AssemblyInfoInputs.cache
+C:\Users\Public\repositorio\LuisFelipeSilvaAmorim\FAZENDA-URBANA\Util\obj\Debug\net8.0\Util.AssemblyInfo.cs
+C:\Users\Public\repositorio\LuisFelipeSilvaAmorim\FAZENDA-URBANA\Util\obj\Debug\net8.0\Util.csproj.CoreCompileInputs.cache
+C:\Users\Public\repositorio\LuisFelipeSilvaAmorim\FAZENDA-URBANA\Util\obj\Debug\net8.0\Util.sourcelink.json
+C:\Users\Public\repositorio\LuisFelipeSilvaAmorim\FAZENDA-URBANA\Util\obj\Debug\net8.0\Util.dll
+C:\Users\Public\repositorio\LuisFelipeSilvaAmorim\FAZENDA-URBANA\Util\obj\Debug\net8.0\refint\Util.dll
+C:\Users\Public\repositorio\LuisFelipeSilvaAmorim\FAZENDA-URBANA\Util\obj\Debug\net8.0\Util.pdb
+C:\Users\Public\repositorio\LuisFelipeSilvaAmorim\FAZENDA-URBANA\Util\obj\Debug\net8.0\ref\Util.dll
