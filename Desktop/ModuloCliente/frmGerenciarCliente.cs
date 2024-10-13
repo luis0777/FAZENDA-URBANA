@@ -1,5 +1,5 @@
-﻿using Controller;
-using Model;
+﻿using Domain.Entities;
+using Repository.Interface;
 using Util.BD;
 
 namespace Desktop.ModuloCliente
@@ -7,21 +7,24 @@ namespace Desktop.ModuloCliente
     public partial class frmGerenciarCliente : Form
     {
         private readonly SqlFactory _factory;
+        private readonly IClienteRepository _clienteRepository;
+        private readonly ClienteEntitie _clienteEntitie;
 
-        public frmGerenciarCliente(SqlFactory factory)
+        public frmGerenciarCliente(SqlFactory factory, IClienteRepository clienteRepository)
         {
             InitializeComponent();
             _factory = factory;
+            _clienteRepository = clienteRepository;
+            _clienteEntitie = new ClienteEntitie();
         }
 
         private void btnPesquisarCliente_Click(object sender, EventArgs e)
-        {
-            ClienteController clienteController = new ClienteController(_factory);
+        {            
             try
             {
                 if (!String.IsNullOrEmpty(txtFiltro.Text))
                 {
-                    dgCliente.DataSource = clienteController.ConsultarCliente(txtFiltro.Text);
+                    dgCliente.DataSource = _clienteRepository.ConsultarCliente(txtFiltro.Text);
                     if (dgCliente.RowCount == 0)
                     {
                         MessageBox.Show("Não existem registros para o cliente informado.");
@@ -55,9 +58,7 @@ namespace Desktop.ModuloCliente
         }
 
         private void btnAlterarCliente_Click(object sender, EventArgs e)
-        {
-            ClienteController clienteController = new ClienteController(_factory);
-            ClienteModel clienteModel = new ClienteModel();
+        {            
             bool clienteAtualizado = false;
             try
             {
@@ -66,14 +67,14 @@ namespace Desktop.ModuloCliente
                     DataGridViewRow selectedRow = dgCliente.SelectedRows[0];
                     if (!String.IsNullOrEmpty(txtNome.Text))
                     {
-                        clienteModel.NomeCliente = txtNome.Text;
+                        _clienteEntitie.NomeCliente = txtNome.Text;
                     }
                     else
                     {
                         MessageBox.Show("Preencher o campo Nome.");
                     }
-                    clienteModel.Id = Convert.ToInt16(selectedRow.Cells["Id"].Value);
-                    clienteAtualizado = clienteController.AlterarCliente(clienteModel);
+                    _clienteEntitie.Id = Convert.ToInt16(selectedRow.Cells["Id"].Value);
+                    clienteAtualizado = _clienteRepository.AlterarCliente(_clienteEntitie);
                     if (clienteAtualizado)
                     {
                         MessageBox.Show("Dados do cliente atualizados com sucesso.");
@@ -103,15 +104,14 @@ namespace Desktop.ModuloCliente
         }
 
         private void btnExcluirCliente_Click(object sender, EventArgs e)
-        {
-            ClienteController clienteController = new ClienteController(_factory);
+        {            
             bool clienteExcluido = false;
             try
             {
                 if (dgCliente.SelectedRows.Count > 0)
                 {
                     DataGridViewRow selectedRow = dgCliente.SelectedRows[0];
-                    clienteExcluido = clienteController.ExcluirCliente(Convert.ToInt16(selectedRow.Cells["Id"].Value));
+                    clienteExcluido = _clienteRepository.ExcluirCliente(Convert.ToInt16(selectedRow.Cells["Id"].Value));
                     if (clienteExcluido)
                     {
                         MessageBox.Show("Dados do cliente excluído com sucesso.");

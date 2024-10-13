@@ -2,6 +2,8 @@
 using Desktop.ModuloInicial;
 using Desktop.ModuloUsuario;
 using Microsoft.Extensions.DependencyInjection;
+using Repository.Interface;
+using Repository.Repository;
 using Util.BD;
 
 namespace Desktop.Start
@@ -17,6 +19,8 @@ namespace Desktop.Start
             serviceCollection.AddTransient<frmMenu>();
             serviceCollection.AddTransient<frmLogin>();
             serviceCollection.AddScoped<SqlFactory>();
+            serviceCollection.AddTransient<IUsuarioRepository, UsuarioRepository>();
+            serviceCollection.AddTransient<IClienteRepository, ClienteRepository>();
             return serviceCollection.BuildServiceProvider();
         }
     }

@@ -1,89 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\TesteUnitario\\TesteUnitario.csproj": {}
+    "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\TesteUnitario\\TesteUnitario.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Controller\\Controller.csproj": {
+    "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Controller\\Controller.csproj",
-        "projectName": "Controller",
-        "projectPath": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Controller\\Controller.csproj",
+        "projectUniqueName": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Salatiel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Controller\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Salatiel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Model\\Model.csproj"
-              },
-              "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Util\\Util.csproj": {
-                "projectPath": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Util\\Util.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Model\\Model.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Model\\Model.csproj",
-        "projectName": "Model",
-        "projectPath": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\Salatiel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Model\\obj\\",
+        "outputPath": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -147,14 +75,14 @@
         }
       }
     },
-    "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\TesteUnitario\\TesteUnitario.csproj": {
+    "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\TesteUnitario\\TesteUnitario.csproj",
-        "projectName": "TesteUnitario",
-        "projectPath": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\TesteUnitario\\TesteUnitario.csproj",
+        "projectUniqueName": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Repository\\Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\Salatiel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\TesteUnitario\\obj\\",
+        "outputPath": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -176,8 +104,80 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Controller\\Controller.csproj": {
-                "projectPath": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Controller\\Controller.csproj"
+              "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Domain\\Domain.csproj"
+              },
+              "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Util\\Util.csproj": {
+                "projectPath": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Util\\Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\TesteUnitario\\TesteUnitario.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\TesteUnitario\\TesteUnitario.csproj",
+        "projectName": "TesteUnitario",
+        "projectPath": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\TesteUnitario\\TesteUnitario.csproj",
+        "packagesPath": "C:\\Users\\Salatiel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\TesteUnitario\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Salatiel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Repository\\Repository.csproj"
               }
             }
           }
@@ -242,14 +242,14 @@
         }
       }
     },
-    "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Util\\Util.csproj": {
+    "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Util\\Util.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Util\\Util.csproj",
+        "projectUniqueName": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Util\\Util.csproj",
         "projectName": "Util",
-        "projectPath": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Util\\Util.csproj",
+        "projectPath": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Util\\Util.csproj",
         "packagesPath": "C:\\Users\\Salatiel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Util\\obj\\",
+        "outputPath": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Util\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

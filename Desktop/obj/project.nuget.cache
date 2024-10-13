@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ECbLx5GyQzA=",
+  "dgSpecHash": "xUZ0j9ZeOUc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Desktop\\Desktop.csproj",
+  "projectFilePath": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Desktop\\Desktop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Salatiel\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Salatiel\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

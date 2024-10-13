@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\",
+  "WorkspaceRootPath": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7EF06A62-7C33-48D5-9826-059BCFD9C997}|Desktop\\Desktop.csproj|c:\\users\\public\\repositorio\\luisfelipesilvaamorim\\fazenda-urbana\\desktop\\modulousuario\\frmincluirusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EF06A62-7C33-48D5-9826-059BCFD9C997}|Desktop\\Desktop.csproj|solutionrelative:desktop\\modulousuario\\frmincluirusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7EF06A62-7C33-48D5-9826-059BCFD9C997}|Desktop\\Desktop.csproj|c:\\users\\public\\repositorio\\unip\\pooii\\unip.programacaoorientadaobjetosii\\codigofonte\\fazenda-urbana\\desktop\\start\\serviceproviderbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF06A62-7C33-48D5-9826-059BCFD9C997}|Desktop\\Desktop.csproj|solutionrelative:desktop\\start\\serviceproviderbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EF06A62-7C33-48D5-9826-059BCFD9C997}|Desktop\\Desktop.csproj|c:\\users\\public\\repositorio\\luisfelipesilvaamorim\\fazenda-urbana\\desktop\\modulousuario\\frmincluirusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7EF06A62-7C33-48D5-9826-059BCFD9C997}|Desktop\\Desktop.csproj|solutionrelative:desktop\\modulousuario\\frmincluirusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EF06A62-7C33-48D5-9826-059BCFD9C997}|Desktop\\Desktop.csproj|c:\\users\\public\\repositorio\\luisfelipesilvaamorim\\fazenda-urbana\\desktop\\moduloinicial\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7EF06A62-7C33-48D5-9826-059BCFD9C997}|Desktop\\Desktop.csproj|c:\\users\\public\\repositorio\\unip\\pooii\\unip.programacaoorientadaobjetosii\\codigofonte\\fazenda-urbana\\desktop\\moduloinicial\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EF06A62-7C33-48D5-9826-059BCFD9C997}|Desktop\\Desktop.csproj|solutionrelative:desktop\\moduloinicial\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EF06A62-7C33-48D5-9826-059BCFD9C997}|Desktop\\Desktop.csproj|c:\\users\\public\\repositorio\\luisfelipesilvaamorim\\fazenda-urbana\\desktop\\moduloinicial\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7EF06A62-7C33-48D5-9826-059BCFD9C997}|Desktop\\Desktop.csproj|solutionrelative:desktop\\moduloinicial\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7EF06A62-7C33-48D5-9826-059BCFD9C997}|Desktop\\Desktop.csproj|c:\\users\\public\\repositorio\\unip\\pooii\\unip.programacaoorientadaobjetosii\\codigofonte\\fazenda-urbana\\desktop\\modulocliente\\frmgerenciarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF06A62-7C33-48D5-9826-059BCFD9C997}|Desktop\\Desktop.csproj|solutionrelative:desktop\\modulocliente\\frmgerenciarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF06A62-7C33-48D5-9826-059BCFD9C997}|Desktop\\Desktop.csproj|c:\\users\\public\\repositorio\\unip\\pooii\\unip.programacaoorientadaobjetosii\\codigofonte\\fazenda-urbana\\desktop\\modulousuario\\frmincluirusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF06A62-7C33-48D5-9826-059BCFD9C997}|Desktop\\Desktop.csproj|solutionrelative:desktop\\modulousuario\\frmincluirusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF06A62-7C33-48D5-9826-059BCFD9C997}|Desktop\\Desktop.csproj|C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\desktop\\modulocliente\\frmgerenciarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7EF06A62-7C33-48D5-9826-059BCFD9C997}|Desktop\\Desktop.csproj|solutionrelative:desktop\\modulocliente\\frmgerenciarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,52 +35,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmIncluirUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Desktop\\ModuloUsuario\\frmIncluirUsuario.cs",
-              "RelativeDocumentMoniker": "Desktop\\ModuloUsuario\\frmIncluirUsuario.cs",
-              "ToolTip": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Desktop\\ModuloUsuario\\frmIncluirUsuario.cs",
-              "RelativeToolTip": "Desktop\\ModuloUsuario\\frmIncluirUsuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Title": "ServiceProviderBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Desktop\\Start\\ServiceProviderBuilder.cs",
+              "RelativeDocumentMoniker": "Desktop\\Start\\ServiceProviderBuilder.cs",
+              "ToolTip": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Desktop\\Start\\ServiceProviderBuilder.cs",
+              "RelativeToolTip": "Desktop\\Start\\ServiceProviderBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T20:08:31.112Z",
+              "WhenOpened": "2024-10-11T20:13:14.644Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmIncluirUsuario.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Desktop\\ModuloUsuario\\frmIncluirUsuario.cs",
-              "RelativeDocumentMoniker": "Desktop\\ModuloUsuario\\frmIncluirUsuario.cs",
-              "ToolTip": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Desktop\\ModuloUsuario\\frmIncluirUsuario.cs [Design]",
-              "RelativeToolTip": "Desktop\\ModuloUsuario\\frmIncluirUsuario.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T20:08:08.172Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "frmMenu.cs",
-              "DocumentMoniker": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Desktop\\ModuloInicial\\frmMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Desktop\\ModuloInicial\\frmMenu.cs",
               "RelativeDocumentMoniker": "Desktop\\ModuloInicial\\frmMenu.cs",
-              "ToolTip": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Desktop\\ModuloInicial\\frmMenu.cs",
+              "ToolTip": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Desktop\\ModuloInicial\\frmMenu.cs",
               "RelativeToolTip": "Desktop\\ModuloInicial\\frmMenu.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAewEMAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T20:07:18.409Z",
+              "WhenOpened": "2024-10-11T20:06:15.175Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "frmMenu.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Desktop\\ModuloInicial\\frmMenu.cs",
-              "RelativeDocumentMoniker": "Desktop\\ModuloInicial\\frmMenu.cs",
-              "ToolTip": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Desktop\\ModuloInicial\\frmMenu.cs [Design]",
-              "RelativeToolTip": "Desktop\\ModuloInicial\\frmMenu.cs [Design]",
+              "Title": "frmIncluirUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Desktop\\ModuloUsuario\\frmIncluirUsuario.cs",
+              "RelativeDocumentMoniker": "Desktop\\ModuloUsuario\\frmIncluirUsuario.cs",
+              "ToolTip": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Desktop\\ModuloUsuario\\frmIncluirUsuario.cs",
+              "RelativeToolTip": "Desktop\\ModuloUsuario\\frmIncluirUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T20:07:10.757Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-11T20:03:53.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmGerenciarCliente.cs",
+              "DocumentMoniker": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Desktop\\ModuloCliente\\frmGerenciarCliente.cs",
+              "RelativeDocumentMoniker": "Desktop\\ModuloCliente\\frmGerenciarCliente.cs",
+              "ToolTip": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Desktop\\ModuloCliente\\frmGerenciarCliente.cs",
+              "RelativeToolTip": "Desktop\\ModuloCliente\\frmGerenciarCliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T20:03:26.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmGerenciarCliente.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Desktop\\ModuloCliente\\frmGerenciarCliente.cs",
+              "RelativeDocumentMoniker": "Desktop\\ModuloCliente\\frmGerenciarCliente.cs",
+              "ToolTip": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Desktop\\ModuloCliente\\frmGerenciarCliente.cs [Design]",
+              "RelativeToolTip": "Desktop\\ModuloCliente\\frmGerenciarCliente.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T20:03:12.207Z"
             }
           ]
         }

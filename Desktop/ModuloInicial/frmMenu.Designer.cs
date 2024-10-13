@@ -47,12 +47,17 @@
             incluirToolStripMenuItem4 = new ToolStripMenuItem();
             sairToolStripMenuItem = new ToolStripMenuItem();
             contextMenuStrip1 = new ContextMenuStrip(components);
+            professorToolStripMenuItem = new ToolStripMenuItem();
+            contextMenuStrip2 = new ContextMenuStrip(components);
+            incluirToolStripMenuItem5 = new ToolStripMenuItem();
+            alterarToolStripMenuItem = new ToolStripMenuItem();
+            excluirToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { clienteToolStripMenuItem, fornecedorToolStripMenuItem, perfilToolStripMenuItem, produtoToolStripMenuItem, usuarioToolStripMenuItem, sairToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { clienteToolStripMenuItem, fornecedorToolStripMenuItem, perfilToolStripMenuItem, produtoToolStripMenuItem, usuarioToolStripMenuItem, sairToolStripMenuItem, professorToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(800, 24);
@@ -147,13 +152,13 @@
             // gerenciarToolStripMenuItem4
             // 
             gerenciarToolStripMenuItem4.Name = "gerenciarToolStripMenuItem4";
-            gerenciarToolStripMenuItem4.Size = new Size(180, 22);
+            gerenciarToolStripMenuItem4.Size = new Size(124, 22);
             gerenciarToolStripMenuItem4.Text = "Gerenciar";
             // 
             // incluirToolStripMenuItem4
             // 
             incluirToolStripMenuItem4.Name = "incluirToolStripMenuItem4";
-            incluirToolStripMenuItem4.Size = new Size(180, 22);
+            incluirToolStripMenuItem4.Size = new Size(124, 22);
             incluirToolStripMenuItem4.Text = "Incluir";
             incluirToolStripMenuItem4.Click += incluirToolStripMenuItem4_Click;
             // 
@@ -168,6 +173,36 @@
             // 
             contextMenuStrip1.Name = "contextMenuStrip1";
             contextMenuStrip1.Size = new Size(61, 4);
+            // 
+            // professorToolStripMenuItem
+            // 
+            professorToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { incluirToolStripMenuItem5, alterarToolStripMenuItem, excluirToolStripMenuItem });
+            professorToolStripMenuItem.Name = "professorToolStripMenuItem";
+            professorToolStripMenuItem.Size = new Size(68, 20);
+            professorToolStripMenuItem.Text = "Professor";
+            // 
+            // contextMenuStrip2
+            // 
+            contextMenuStrip2.Name = "contextMenuStrip2";
+            contextMenuStrip2.Size = new Size(61, 4);
+            // 
+            // incluirToolStripMenuItem5
+            // 
+            incluirToolStripMenuItem5.Name = "incluirToolStripMenuItem5";
+            incluirToolStripMenuItem5.Size = new Size(180, 22);
+            incluirToolStripMenuItem5.Text = "Incluir";
+            // 
+            // alterarToolStripMenuItem
+            // 
+            alterarToolStripMenuItem.Name = "alterarToolStripMenuItem";
+            alterarToolStripMenuItem.Size = new Size(180, 22);
+            alterarToolStripMenuItem.Text = "Alterar";
+            // 
+            // excluirToolStripMenuItem
+            // 
+            excluirToolStripMenuItem.Name = "excluirToolStripMenuItem";
+            excluirToolStripMenuItem.Size = new Size(180, 22);
+            excluirToolStripMenuItem.Text = "Excluir";
             // 
             // frmMenu
             // 
@@ -207,5 +242,10 @@
         private ToolStripMenuItem incluirToolStripMenuItem4;
         private ToolStripMenuItem sairToolStripMenuItem;
         private ContextMenuStrip contextMenuStrip1;
+        private ToolStripMenuItem professorToolStripMenuItem;
+        private ToolStripMenuItem incluirToolStripMenuItem5;
+        private ToolStripMenuItem alterarToolStripMenuItem;
+        private ContextMenuStrip contextMenuStrip2;
+        private ToolStripMenuItem excluirToolStripMenuItem;
     }
 }

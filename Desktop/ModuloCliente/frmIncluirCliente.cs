@@ -1,6 +1,6 @@
-using Controller;
 using Desktop.ValidadoresComponentes;
-using Model;
+using Domain.Entities;
+using Repository.Interface;
 using System.Security.Cryptography;
 using Util.BD;
 using Util.Controles;
@@ -10,60 +10,38 @@ namespace Desktop
 {
     public partial class frmIncluirCliente : Form
     {
+        #region Propriedades
         private readonly SqlFactory _factory;
-        public frmIncluirCliente(SqlFactory factory)
+        private readonly CPF _cpf;
+        private readonly Email _email;
+        private readonly EncryptionHelper _encryptionHelper;
+        private readonly ValidadorTextBox _validadorTextBox;
+        private readonly ClienteEntitie _clienteEntitie;
+        private readonly IClienteRepository _clienteRepository;
+        #endregion
+
+        #region Construtor
+        public frmIncluirCliente(SqlFactory factory, IClienteRepository clienteRepository)
         {
             InitializeComponent();
             _factory = factory;
+            _cpf = new CPF();
+            _email = new Email();
+            _encryptionHelper = new EncryptionHelper();
+            _validadorTextBox = new ValidadorTextBox();
+            _clienteEntitie = new ClienteEntitie();
+            _clienteRepository = clienteRepository;
         }
+        #endregion
 
+        #region Eventos
         private void btnIncluirCliente_Click(object sender, EventArgs e)
         {
-            CPF cpf = new CPF();
-            Email email = new Email();
-            EncryptionHelper encryptionHelper = new EncryptionHelper();
-            ValidadorTextBox validadorTextBox = new ValidadorTextBox();
-            ClienteModel clienteModel = new ClienteModel();
-            ClienteController clienteController = new ClienteController(_factory);
             bool retornoIncluirCliente = false;
             try
             {
-                if (validadorTextBox.ValidarTextBoxesPreenchidos(txtNomeCliente.Parent))
-                {
-                    clienteModel.NomeCliente = txtNomeCliente.Text;
-                }
-                if (validadorTextBox.ValidarTextBoxesPreenchidos(mskCpf.Parent))
-                {
-                    if(cpf.ValidarCPF(mskCpf.Text))
-                    {
-                        clienteModel.Cpf = mskCpf.Text;
-                    }
-                    else
-                    {
-                        MessageBox.Show("CPF inválido");
-                    }                    
-                }
-                if (validadorTextBox.ValidarTextBoxesPreenchidos(txtEmail.Parent))
-                {
-                    if (email.ValidarEmail(txtEmail.Text))
-                    {                        
-                        clienteModel.Email = txtEmail.Text;
-                    }
-                    else
-                    {
-                        MessageBox.Show("Email inválido");
-                    }
-                }
-                if (validadorTextBox.ValidarTextBoxesPreenchidos(txtSenha.Parent))
-                {
-                    // Cria uma nova instância da classe Aes.
-                    using (Aes myAes = Aes.Create())
-                    {
-                        byte[] senha = encryptionHelper.EncryptStringToBytes_Aes(txtEmail.Text, myAes.Key, myAes.IV);
-                        clienteModel.Senha = senha;
-                    }
-                }
-                retornoIncluirCliente = clienteController.IncluirCliente(clienteModel);
+                ValidarPreenchimentodeCampos();
+                retornoIncluirCliente = _clienteRepository.IncluirCliente(_clienteEntitie);
                 if (retornoIncluirCliente)
                 {
                     MessageBox.Show("Cliente cadastrado com sucesso");
@@ -75,7 +53,19 @@ namespace Desktop
                 MessageBox.Show("Erro: " + ex.Message);
             }
         }
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Você realmente deseja sair?", "Confirmação",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
+            if (result == DialogResult.Yes)
+            {
+                Close();
+            }
+        }
+        #endregion
+
+        #region Métodos
         private void InicializarTela()
         {
             try
@@ -91,16 +81,56 @@ namespace Desktop
                 throw;
             }
         }
-
-        private void btnSair_Click(object sender, EventArgs e)
+        private void ValidarPreenchimentodeCampos()
         {
-            DialogResult result = MessageBox.Show("Você realmente deseja sair?", "Confirmação",
-                MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-            if (result == DialogResult.Yes)
+            try
             {
-                Close();
+                if (_validadorTextBox.ValidarTextBoxesPreenchidos(txtNomeCliente.Parent))
+                {
+                    _clienteEntitie.NomeCliente = txtNomeCliente.Text;
+                }
+                if (_validadorTextBox.ValidarTextBoxesPreenchidos(mskCpf.Parent))
+                {
+                    if (_cpf.ValidarCPF(mskCpf.Text))
+                    {
+                        _clienteEntitie.Cpf = mskCpf.Text;
+                    }
+                    else
+                    {
+                        MessageBox.Show("CPF inválido");
+                    }
+                }
+                if (_validadorTextBox.ValidarTextBoxesPreenchidos(txtEmail.Parent))
+                {
+                    if (_email.ValidarEmail(txtEmail.Text))
+                    {
+                        _clienteEntitie.Email = txtEmail.Text;
+                    }
+                    else
+                    {
+                        MessageBox.Show("Email inválido");
+                    }
+                }
+                if (_validadorTextBox.ValidarTextBoxesPreenchidos(txtSenha.Parent))
+                {
+                    // Cria uma nova instância da classe Aes.
+                    using (Aes myAes = Aes.Create())
+                    {
+                        byte[] senha = _encryptionHelper.EncryptStringToBytes_Aes(txtEmail.Text, myAes.Key, myAes.IV);
+                        _clienteEntitie.Senha = senha;
+                    }
+                }
             }
+            catch
+            {
+                throw;
+            }
+        }
+        #endregion
+
+        private void mskCpf_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
         }
     }
 }

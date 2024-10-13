@@ -74,6 +74,7 @@
             mskCpf.Name = "mskCpf";
             mskCpf.Size = new Size(80, 23);
             mskCpf.TabIndex = 2;
+            mskCpf.MaskInputRejected += mskCpf_MaskInputRejected;
             // 
             // txtSenha
             // 

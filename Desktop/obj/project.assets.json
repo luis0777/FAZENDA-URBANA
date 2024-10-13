@@ -634,31 +634,31 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
-      "Controller/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Model": "1.0.0",
-          "Util": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Controller.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Controller.dll": {}
-        }
-      },
-      "Model/1.0.0": {
+      "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
-          "bin/placeholder/Model.dll": {}
+          "bin/placeholder/Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Model.dll": {}
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
+      "Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Domain": "1.0.0",
+          "Util": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repository.dll": {}
         }
       },
       "Util/1.0.0": {
@@ -1862,15 +1862,15 @@
         "version.txt"
       ]
     },
-    "Controller/1.0.0": {
+    "Domain/1.0.0": {
       "type": "project",
-      "path": "../Controller/Controller.csproj",
-      "msbuildProject": "../Controller/Controller.csproj"
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
     },
-    "Model/1.0.0": {
+    "Repository/1.0.0": {
       "type": "project",
-      "path": "../Model/Model.csproj",
-      "msbuildProject": "../Model/Model.csproj"
+      "path": "../Repository/Repository.csproj",
+      "msbuildProject": "../Repository/Repository.csproj"
     },
     "Util/1.0.0": {
       "type": "project",
@@ -1880,9 +1880,9 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
-      "Controller >= 1.0.0",
+      "Domain >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection >= 8.0.1",
-      "Model >= 1.0.0",
+      "Repository >= 1.0.0",
       "Util >= 1.0.0"
     ]
   },
@@ -1893,11 +1893,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Desktop\\Desktop.csproj",
+      "projectUniqueName": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Desktop\\Desktop.csproj",
       "projectName": "Desktop",
-      "projectPath": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Desktop\\Desktop.csproj",
+      "projectPath": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Desktop\\Desktop.csproj",
       "packagesPath": "C:\\Users\\Salatiel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Desktop\\obj\\",
+      "outputPath": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Desktop\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1919,14 +1919,14 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Controller\\Controller.csproj": {
-              "projectPath": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Controller\\Controller.csproj"
+            "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Model\\Model.csproj": {
-              "projectPath": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Model\\Model.csproj"
+            "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Repository\\Repository.csproj"
             },
-            "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Util\\Util.csproj": {
-              "projectPath": "C:\\Users\\Public\\repositorio\\LuisFelipeSilvaAmorim\\FAZENDA-URBANA\\Util\\Util.csproj"
+            "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Util\\Util.csproj": {
+              "projectPath": "C:\\Users\\Public\\repositorio\\UNIP\\POOII\\Unip.ProgramacaoOrientadaObjetosII\\codigoFonte\\FAZENDA-URBANA\\Util\\Util.csproj"
             }
           }
         }

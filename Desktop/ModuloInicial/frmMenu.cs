@@ -1,5 +1,6 @@
 ﻿using Desktop.ModuloCliente;
 using Desktop.ModuloUsuario;
+using Repository.Interface;
 using Util.BD;
 
 namespace Desktop.ModuloInicial
@@ -7,6 +8,8 @@ namespace Desktop.ModuloInicial
     public partial class frmMenu : Form
     {
         private readonly SqlFactory _factory;
+        private readonly IClienteRepository _clienteRepository;
+        private readonly IUsuarioRepository _usuarioRepository;
         public frmMenu(SqlFactory factory)
         {
             InitializeComponent();
@@ -17,7 +20,7 @@ namespace Desktop.ModuloInicial
         {
             try
             {
-                frmGerenciarCliente frmGerenciarCliente = new frmGerenciarCliente(_factory);
+                frmGerenciarCliente frmGerenciarCliente = new frmGerenciarCliente(_factory, _clienteRepository);
                 frmGerenciarCliente.MdiParent = this;
                 frmGerenciarCliente.Show();
             }
@@ -31,7 +34,7 @@ namespace Desktop.ModuloInicial
         {
             try
             {
-                frmIncluirCliente frmIncluirCliente = new frmIncluirCliente(_factory);
+                frmIncluirCliente frmIncluirCliente = new frmIncluirCliente(_factory, _clienteRepository);
                 frmIncluirCliente.MdiParent = this;
                 frmIncluirCliente.Show();
             }
@@ -63,7 +66,7 @@ namespace Desktop.ModuloInicial
         {
             try
             {
-                frmIncluirUsuario frmIncluirUsuario = new frmIncluirUsuario(_factory);
+                frmIncluirUsuario frmIncluirUsuario = new frmIncluirUsuario(_factory, _usuarioRepository);
                 frmIncluirUsuario.MdiParent = this;
                 frmIncluirUsuario.Show();
             }
